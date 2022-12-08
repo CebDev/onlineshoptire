@@ -1,0 +1,86 @@
+#paiement-container{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40, 40, 40, 0.80);
+}
+
+.paiement-contain{
+    display: flex;
+    flex-direction: column;
+    margin: 8% auto;
+    height: 550px;
+    width: 650px;
+    background-color: white;
+}
+
+.paiement-contain a{
+    display: block;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+}
+
+#recapPanierVide{
+    margin: 50 auto;
+}
+
+.recapPanier, .paiementCarte{
+    width: 90%;
+    margin: 15px auto;
+}
+
+.paiementCarte form{
+    margin: 0 auto;
+}
+
+.recapPanierTableTitle, .paiementCarteTitle{
+    background-color: darkgray;
+    font-size: 22px;
+    font-weight: bold;
+}
+  
+.recapPanier table{
+    width: 90%;
+    margin: 0 auto;
+}
+  
+.recapPanier th, .recapPanier td{
+    text-align: center;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.paiementCarte table{
+    margin: 0 auto;
+}
+ 
+.paiementCarte td input{
+    text-align: center;
+}
+  
+.inputLong{
+    width:190px;
+    height: 24px;
+}
+  
+#inputDateExpiration{
+    width:60px;
+    height: 22px;
+}
+  
+#inputCodeVerif{
+    width:35px;
+    height: 22px;
+}
+  
+.tdButton{
+    text-Align: center;
+}
+
+
